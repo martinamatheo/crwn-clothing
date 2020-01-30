@@ -3,6 +3,15 @@
   flex-direction: column;
   width: 380px;
 
+  @media only screen and (max-width: 500px) {
+    width: 100%;
+    margin: 0 auto;
+
+    .button {
+      margin: 0 auto;
+    }
+  }
+
   .title {
     margin: 10px 0;
   }
